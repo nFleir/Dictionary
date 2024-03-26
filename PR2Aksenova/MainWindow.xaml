@@ -1,0 +1,17 @@
+﻿<Window x:Class="PR2Aksenova.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR2Aksenova"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <Button x:Name="ShowWindow" Content="Список" Width="79" Margin="5,31,5,326.5" Click="ShowWindow_Click"/>
+            <Button x:Name="AddRemove" Content="Добавить/Удалить" Width="114" Margin="5,31,5,326.5" Click="AddRemove_Click"/>
+        </StackPanel>
+        <Frame x:Name="MainFrame" Height="475" NavigationUIVisibility="Visible"/>
+    </Grid>
+    
+</Window>
